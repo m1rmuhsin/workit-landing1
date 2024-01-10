@@ -1,0 +1,269 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  max-width: 1200px;
+  width: 100%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+ul {
+  text-decoration: none;
+  list-style: none;
+}
+li {
+  text-decoration: none;
+  list-style: none;
+}
+/* header */
+.header {
+  width: 100%;
+  background-color: #24053e;
+  border-bottom-left-radius: 20%;
+  border-bottom-right-radius: 20%;
+  height: 800px;
+  position: relative;
+  overflow: hidden;
+  z-index: 2;
+}
+.header-bagraund__oval1 {
+  width: 350px;
+  height: 250px;
+  position: absolute;
+  z-index: 3;
+  top: 300px;
+  right: -100px;
+}
+.header-bagraund__oval2 {
+  width: 400px;
+  height: 300px;
+  position: absolute;
+  z-index: 3;
+  top: 100px;
+  left: -165px;
+}
+
+.header_navbar {
+  margin: 40px 0 0 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header_nav-itemss {
+  width: 175px;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.header_nav-text {
+  width: 160px;
+  height: 40px;
+  color: var(--White, #fff);
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 32px;
+  font-family: monospace;
+}
+
+.header_nav_aqualive {
+  width: 155px;
+  height: 3px;
+  background-color: #44ffa1;
+}
+.header_title {
+  width: 635px;
+  color: var(--White, #fff);
+  text-align: center;
+  font-feature-settings: "clig" off, "liga" off;
+  font-size: 80px;
+  font-weight: 600;
+  line-height: 80px;
+  margin: auto;
+  margin-top: 100px;
+}
+.header_btn {
+  width: 161px;
+  height: 61px;
+  flex-shrink: 0;
+  background: var(--Eucaplyptus, #44ffa1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  margin: auto;
+  margin-top: 40px;
+  margin-bottom: 50px;
+}
+.header_btn-text {
+  color: var(--Dark-Purple, #24053e);
+  text-align: center;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: -0.18px;
+  text-decoration: none;
+}
+.phone_image {
+  position: absolute;
+  width: 715px;
+  height: 427px;
+  top: 600px;
+  left: 700px;
+  z-index: 4;
+}
+.phone_image1 {
+  position: absolute;
+  width: 680px;
+  height: 380px;
+  top: 610px;
+  left: 718px;
+  z-index: 4;
+}
+.main_cards {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 250px;
+}
+
+.main_carder {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px;
+  column-gap: 10px;
+}
+
+.main_card {
+  width: 360px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  overflow: hidden;
+  align-items: center;
+}
+
+.card_number {
+  width: 56px;
+  height: 56px;
+  border: 1px solid var(--Davys-Grey, #584d62);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card_title {
+  width: 355px;
+  color: var(--Dark-Purple, #24053e);
+  text-align: center;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 40px;
+  margin-top: 55px;
+  margin-bottom: 30px;
+}
+
+.card_desc {
+  width: 355px;
+  color: var(--Dark-Purple, #24053e);
+  text-align: center;
+  font-feature-settings: "clig" off, "liga" off;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 32px;
+}
+
+.portfolio {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.my_profil {
+  max-width: 1140px;
+  width: 100%;
+  height: 900px;
+  position: relative;
+}
+.my_profil-avo {
+  width: 477px;
+  height: 477px;
+  border-radius: 50%;
+  background: #44ffa1;
+  overflow: hidden;
+  display: flex;
+  align-items: self-end;
+  position: absolute;
+  left: 30px;
+  top: 130px;
+}
+
+.my_profil-desc {
+  width: 730px;
+  height: 413px;
+  background: var(--Dark-Purple, #24053e);
+  display: flex;
+  flex-direction: column;
+
+  position: absolute;
+  right: 30px;
+  bottom: 150px;
+}
+.profil_desc-title {
+  color: var(--White, #fff);
+  font-feature-settings: "clig" off, "liga" off;
+  font-size: 56px;
+  font-weight: 600;
+  line-height: 64px;
+  margin: 64px 0 32px 64px;
+}
+.profil_desc-text {
+  width: 602px;
+  color: var(--White, #fff);
+  font-feature-settings: "clig" off, "liga" off;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 32px;
+  margin: 0 64px 32px 64px;
+}
+.desc_ovals {
+  position: absolute;
+  right: 100px;
+  bottom: 100px;
+}
+.desc_btn {
+  margin: 0 0 80px 90px;
+} 
+.footer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 0 60px 0;
+}
+.header_nav-text:hover {
+  color: #44ffa1;
+  cursor: pointer;
+}
+
+.header_btn:hover {
+  background-color: #24053e;
+  color: #44ffa1;
+  border: 1px solid #44ffa1;
+}
+.header_btn:hover .header_btn-text{
+  color: #44ffa1;
+}
+
